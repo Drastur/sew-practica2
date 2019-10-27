@@ -1,0 +1,76 @@
+/*Tarea 1*/
+/* Especificidad = */
+h1{
+    font-size: 3em;
+    margin-left: 7%;
+    margin-right: 4%;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.25em;
+}
+h5{
+    font-size: 1em;
+}
+h6{
+    font-size: 0.75em;
+}
+/*Tarea 3*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size-adjust: 0.58;
+    background-color: steelblue;
+    color: rgb(66, 59, 59);
+}
+h1,h3,h5{
+    font-stretch: expanded;    
+}
+h2,h4,h6{
+    font-style: italic;
+}
+p{
+    background-color: cadetblue;
+    color:rgb(39, 38, 38);
+}
+/*Tarea 2*/
+p,li,td{
+    font-family: Georgia, serif;    
+    font-size: 1em
+}
+p::first-letter {
+    font-size: 200%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #b1b1b1;
+}
+
+a:hover{
+    color:red;
+}
+.tableheaders{
+    background-color: #747474;
+}

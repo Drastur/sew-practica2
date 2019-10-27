@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas:"header header"
+                        "aside content"
+                        "footer footer";
+    grid-template-columns: 1fr 3fr;                    
+}
+header {
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+}
+main {
+    grid-area: content;
+    padding: 16px;
+}
+
+footer {
+    grid-area: footer;
+}
+

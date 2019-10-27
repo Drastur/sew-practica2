@@ -1,0 +1,30 @@
+aside {
+    background-color: burlywood;
+}
+.enlacenav {    
+    font-family: verdana, arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 64px;
+    background-color: #ffffe6;
+    color: #666666;
+    text-decoration: none;
+}
+.enlacenav:link,
+.enlacenav:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+}
+.enlacenav:hover {
+    border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+}
+
+li {
+    padding-bottom: 16px;
+}
